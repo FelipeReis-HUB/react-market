@@ -7,6 +7,8 @@
         "eslint:recommended",
         "plugin:react/recommended"
     ],
+    "overrides": [
+    ],
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
@@ -31,9 +33,13 @@
             "error",
             "always"
         ],
-        "jsx-quotes":[
+        "jsx-quotes": [
             2,
             "prefer-double"
+        ],
+        "eol-last": [
+            "error",
+            "always"
         ]
     }
 }

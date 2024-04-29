@@ -3,6 +3,7 @@ import SearchBar from '../SearchBar/SearchBar';
 
 import './Header.css';
 import CartButton from '../CartButton/CartButton';
+import AccountButton from '../AccountButton/AccountButton';
 
 function Header(){
   return(
@@ -10,8 +11,12 @@ function Header(){
       <div className="container">
         
         <SearchBar/>
-        <CartButton/>
 
+        <div className="buttons-container">
+          <CartButton/>
+          <AccountButton/>
+        </div>
+        
       </div>
     </header>
   );

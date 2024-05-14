@@ -15,6 +15,9 @@ function Cart(){
     <section className={`cart ${isCartVisible ? 'cart--active' : ''}`}>
       <div className="cart_items">
         {cartItems?.map((cartItem) => (<CartItem key={cartItem} data={cartItem}/>))}
+        {cartItems.length == 0 && <div className="empty-cart">
+          <h3 className="empty-cart-text">Seu carrinho está vazio.</h3>
+        </div>}
       </div>
 
       <div className="cart_resume">{formatCurrency(totalPrice, 'BRL')}</div>

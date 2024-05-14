@@ -1,0 +1,11 @@
+ 
+ FUNÇÕES
+  - add login e senha => https://youtu.be/brcHK3P6ChQ?list=PL0Zuz27SZ-6PRCpm9clX0WiBEMB70FWwd
+  - add wishlist
+  - quantidade do mesmo produto no carrinho
+
+ FRONT-END
+  - add logo/título
+  - add mensagem de carrinho vazio
+
+

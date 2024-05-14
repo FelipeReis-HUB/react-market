@@ -12,9 +12,11 @@
   justify-content: space-between;
   transform: translate(110%, 0);
   transition: all 400ms ease;
+  z-index: 2;
 }
 
 .cart_items{
+  padding-top: 10px;
   flex-grow: 1;
   overflow: auto;
 }
@@ -32,4 +34,19 @@
 
 .cart--active{
   transform: translate(0, 0);
+}
+
+.empty-cart{
+  display: flex;
+  margin-top: 18px;
+  justify-content: center;
+}
+
+.empty-cart-text{
+  font-size: 15px;
+  color: rgb(122, 122, 122);
+  font-weight: 400;
+  max-inline-size: 500px;
+  align-self: center;
+  justify-content: center;
 }

@@ -2,7 +2,7 @@
   background-color: #61dbfb;
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 3;
 }
 
 .header > div {
@@ -16,4 +16,18 @@
   display: flex;
   flex-direction: row;
   margin-right: 12px;
+  align-items: center;
+}
+
+.left-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-image{
+  width: 90px;
+  padding: 0;
+  margin-right: 30px;
 }

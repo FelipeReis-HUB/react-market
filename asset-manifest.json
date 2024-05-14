@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-market/static/css/main.62c7d2a6.css",
+    "main.js": "/react-market/static/js/main.f0a1456f.js",
+    "static/media/profile-me.jpeg": "/react-market/static/media/profile-me.a0ad1fd8f8889a7983dc.jpeg",
+    "static/media/logo.png": "/react-market/static/media/logo.60278ec0c4631a7bcde7.png",
+    "index.html": "/react-market/index.html",
+    "main.62c7d2a6.css.map": "/react-market/static/css/main.62c7d2a6.css.map",
+    "main.f0a1456f.js.map": "/react-market/static/js/main.f0a1456f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62c7d2a6.css",
+    "static/js/main.f0a1456f.js"
+  ]
+}
